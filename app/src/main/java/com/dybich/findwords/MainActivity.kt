@@ -118,9 +118,7 @@ class MainActivity : AppCompatActivity() {
 
         var requestQueue: RequestQueue = Volley.newRequestQueue(this)
 
-        if(wordslist.size > 0){
-            wordslist.clear()
-        }
+
 
         var postRequest  =  StringRequest(Request.Method.GET,url, { response->
 
@@ -132,6 +130,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 else{
+                    if(wordslist.size > 0){
+                        wordslist.clear()
+                    }
                     for(i in list){
                         var j = i.trim()
                         if(j != ""){

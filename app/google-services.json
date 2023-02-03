@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763672603761",
+    "firebase_url": "https://findwords-5be28-default-rtdb.firebaseio.com",
+    "project_id": "findwords-5be28",
+    "storage_bucket": "findwords-5be28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763672603761:android:25680ab14ee4016ff6bfd0",
+        "android_client_info": {
+          "package_name": "com.dybich.findwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763672603761-o4s213136m5nrjed152ove9bl1jeipae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Vn6VpMToqDpCuwvP4YgjVbrh-Ur80j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763672603761-o4s213136m5nrjed152ove9bl1jeipae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

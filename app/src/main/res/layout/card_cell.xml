@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:paddingLeft="25dp"
+              android:paddingRight="25dp"
+              android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    app:strokeColor="?attr/colorPrimary"
+                    app:strokeWidth="3dp"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:text=""
+                    android:layout_width="match_parent" android:layout_height="70dp"
+                    android:id="@+id/card_cell_BTN"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+            </Button>
+            <TextView
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="center_vertical"
+
+                    android:fontFamily="@font/holtwood_one_sc"
+                    android:textSize="20sp"
+                    android:textColor="?attr/colorPrimary"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@+id/card_cell_BTN"
+                    app:layout_constraintBottom_toBottomOf="@+id/card_cell_BTN"
+                    app:layout_constraintTop_toTopOf="@+id/card_cell_BTN" android:id="@+id/card_cell_TV">
+
+            </TextView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</LinearLayout>
